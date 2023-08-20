@@ -1,0 +1,5 @@
+<div class="post-detail" *ngIf="post">
+  <h2 class="post-title">{{ post.title }}</h2>
+  <p class="post-body">{{ post.body }}</p>
+  <button mat-raised-button color="primary" [routerLink]="['/posts']" class="back-button">Back to Post List</button>
+</div>
